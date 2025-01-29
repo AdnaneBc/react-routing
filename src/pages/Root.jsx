@@ -1,8 +1,6 @@
-import { Outlet, useNavigation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import MainNavigation from "../components/MainNavigation";
 function Layout() {
-  const navigation = useNavigation();
-  console.log(navigation);
   return (
     <>
       <MainNavigation />
